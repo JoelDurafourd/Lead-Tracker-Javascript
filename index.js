@@ -1,5 +1,5 @@
-document.getElementById("input-btn")
+const inputBtn = document.getElementById("input-btn")
 
-function inputButton() {
+inputBtn.addEventListener("click", function() {
   console.log("button clicked!")
-}
+})
